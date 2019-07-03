@@ -53,3 +53,25 @@ p {
 img {
 	width: 100%;
 }
+
+/* -----------768px以下のレスポンシブ----------- */
+
+@media screen and (max-width:768px) {
+
+.wrapper {
+	width: 90%;
+}
+
+.box {
+	width: 100%;
+	padding: 3%;
+	margin: 0 0 20px 0;
+	/* border: 1px solid #999999; */
+	float: none;
+}
+
+.box:last-child {
+	margin-bottom: 0;
+}
+
+}
